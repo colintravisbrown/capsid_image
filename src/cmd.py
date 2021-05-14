@@ -39,7 +39,7 @@ def capsid_image(session, pdb, path_to_save):
     atoms = all_objects(session).atoms  # getting atom list
     coords = atoms.scene_coords  # getting atom coords
     radius = norm(coords,axis=1).max()
-    run(session, 'hkcage 1 0 radius alpha hexagonal-dual ' + str(radius))
+    run(session, 'hkcage 1 0 alpha hexagonal-dual radius ' + str(radius))
 
     #run(session, 'surface #2 resolution 10')
     #run(session, 'view orient')
