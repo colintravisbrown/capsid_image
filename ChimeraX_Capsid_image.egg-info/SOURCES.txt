@@ -1,8 +1,0 @@
-README.md
-ChimeraX_Capsid_image.egg-info/PKG-INFO
-ChimeraX_Capsid_image.egg-info/SOURCES.txt
-ChimeraX_Capsid_image.egg-info/dependency_links.txt
-ChimeraX_Capsid_image.egg-info/requires.txt
-ChimeraX_Capsid_image.egg-info/top_level.txt
-src/__init__.py
-src/cmd.py
